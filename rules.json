@@ -1,0 +1,58 @@
+[
+    {
+        "type": "field",
+        "outboundTag": "direct",
+        "ip": [
+            "34.126.232.68"
+        ],
+        "remarks": "StarCitizen-download"
+    },
+    {
+        "type": "field",
+        "outboundTag": "direct",
+        "ip": [
+            "geoip:private"
+        ],
+        "remarks": "direct-private"
+    },
+    {
+        "type": "field",
+        "outboundTag": "direct",
+        "domain": [
+            "geosite:private"
+        ],
+        "remarks": "direct-private"
+    },
+    {
+        "type": "field",
+        "outboundTag": "direct",
+        "protocol": [
+            "bittorrent"
+        ],
+        "remarks": "torrent"
+    },
+    {
+        "type": "field",
+        "outboundTag": "direct",
+        "domain": [
+            "geosite:category-ru",
+            "regexp:.*\\.ru$",
+            "regexp:.*\\.su$"
+        ],
+        "remarks": "direct-ru"
+    },
+    {
+        "type": "field",
+        "outboundTag": "direct",
+        "ip": [
+            "geoip:ru"
+        ],
+        "remarks": "direct-ru"
+    },
+    {
+        "type": "field",
+        "network": "tcp,udp",
+        "outboundTag": "proxy",
+        "remarks": "default proxy"
+    }
+]
