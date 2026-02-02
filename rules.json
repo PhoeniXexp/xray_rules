@@ -66,6 +66,13 @@
     },
     {
         "type": "field",
+        "outboundTag": "proxy",
+        "domain": [
+            "noctuasky.com"
+        ]
+    },
+    {
+        "type": "field",
         "port": "0-65535",
         "outboundTag": "direct"
     }
