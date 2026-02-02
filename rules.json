@@ -2,57 +2,71 @@
     {
         "type": "field",
         "outboundTag": "direct",
-        "ip": [
-            "34.126.232.68"
-        ],
-        "remarks": "StarCitizen-download"
+        "protocol": [
+            "bittorrent"
+        ]
+    },
+    {
+        "type": "field",
+        "outboundTag": "block",
+        "domain": [
+            "geosite:category-ads-all"
+        ]
     },
     {
         "type": "field",
         "outboundTag": "direct",
         "ip": [
             "geoip:private"
-        ],
-        "remarks": "direct-private"
+        ]
     },
     {
         "type": "field",
         "outboundTag": "direct",
         "domain": [
             "geosite:private"
-        ],
-        "remarks": "direct-private"
-    },
-    {
-        "type": "field",
-        "outboundTag": "direct",
-        "protocol": [
-            "bittorrent"
-        ],
-        "remarks": "torrent"
+        ]
     },
     {
         "type": "field",
         "outboundTag": "direct",
         "domain": [
-            "geosite:category-ru",
-            "regexp:.*\\.ru$",
-            "regexp:.*\\.su$"
-        ],
-        "remarks": "direct-ru"
+            "geosite:category-ru"
+        ]
     },
     {
         "type": "field",
-        "outboundTag": "direct",
-        "ip": [
-            "geoip:ru"
-        ],
-        "remarks": "direct-ru"
-    },
-    {
-        "type": "field",
-        "network": "tcp,udp",
         "outboundTag": "proxy",
-        "remarks": "default proxy"
+        "ip": [
+            "1.0.0.1",
+            "1.1.1.1",
+            "8.8.8.8",
+            "8.8.4.4"
+        ]
+    },
+    {
+        "type": "field",
+        "port": "50000-65535",
+        "network": "udp",
+        "outboundTag": "proxy"
+    },
+    {
+        "type": "field",
+        "outboundTag": "proxy",
+        "ip": [
+            "geoip:ru-blocked"
+        ]
+    },
+    {
+        "type": "field",
+        "outboundTag": "proxy",
+        "domain": [
+            "geosite:ru-blocked"
+        ]
+    },
+    {
+        "type": "field",
+        "port": "0-65535",
+        "outboundTag": "direct"
     }
 ]
