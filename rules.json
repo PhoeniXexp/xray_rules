@@ -68,7 +68,12 @@
         "type": "field",
         "outboundTag": "proxy",
         "domain": [
-            "noctuasky.com"
+            "noctuasky.com",
+            "robertsspaceindustries.com",
+            "cloudimperiumgames.com",
+            "turbulent.ca",
+            "pbi.oraclecloud.com",
+            "auth.robertsspaceindustries.com"
         ]
     },
     {
