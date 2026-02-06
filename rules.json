@@ -1,6 +1,21 @@
 [
     {
         "type": "field",
+        "inboundTag": [
+            "dns-in"
+        ],
+        "outboundTag": "dns-out"
+    },
+    {
+        "type": "field",
+        "outboundTag": "proxy",
+        "ip": [
+            "1.0.0.1",
+            "1.1.1.1"
+        ]
+    },
+    {
+        "type": "field",
         "outboundTag": "direct",
         "protocol": [
             "bittorrent"
@@ -37,18 +52,8 @@
     {
         "type": "field",
         "outboundTag": "proxy",
-        "ip": [
-            "1.0.0.1",
-            "1.1.1.1",
-            "8.8.8.8",
-            "8.8.4.4"
-        ]
-    },
-    {
-        "type": "field",
-        "port": "50000-65535",
         "network": "udp",
-        "outboundTag": "proxy"
+        "port": "50000-65535"
     },
     {
         "type": "field",
