@@ -80,7 +80,8 @@
             "cloudimperiumgames.com",
             "turbulent.ca",
             "pbi.oraclecloud.com",
-            "auth.robertsspaceindustries.com"
+            "auth.robertsspaceindustries.com",
+            "chloeting.com"
         ]
     },
     {
@@ -89,4 +90,5 @@
         "outboundTag": "direct"
     }
 ]
+
 
