@@ -81,7 +81,8 @@
             "domain:turbulent.ca",
             "pbi.oraclecloud.com",
             "auth.robertsspaceindustries.com",
-            "domain:chloeting.com"
+            "domain:chloeting.com",
+            "domain:your-objectstorage.com"
         ]
     },
     {
@@ -90,6 +91,7 @@
         "outboundTag": "direct"
     }
 ]
+
 
 
 
