@@ -75,13 +75,13 @@
         "type": "field",
         "outboundTag": "proxy",
         "domain": [
-            "noctuasky.com",
+            "domain:noctuasky.com",
             "robertsspaceindustries.com",
             "cloudimperiumgames.com",
-            "turbulent.ca",
+            "domain:turbulent.ca",
             "pbi.oraclecloud.com",
             "auth.robertsspaceindustries.com",
-            "chloeting.com"
+            "domain:chloeting.com"
         ]
     },
     {
@@ -90,5 +90,6 @@
         "outboundTag": "direct"
     }
 ]
+
 
 
