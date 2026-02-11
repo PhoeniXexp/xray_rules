@@ -73,6 +73,13 @@
     },
     {
         "type": "field",
+        "outboundTag": "direct",
+        "ip": [
+            "34.126.232.68"
+        ]
+    },
+    {
+        "type": "field",
         "outboundTag": "proxy",
         "domain": [
             "domain:noctuasky.com",
@@ -92,6 +99,7 @@
         "outboundTag": "direct"
     }
 ]
+
 
 
 
