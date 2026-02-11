@@ -82,7 +82,8 @@
             "pbi.oraclecloud.com",
             "auth.robertsspaceindustries.com",
             "domain:chloeting.com",
-            "domain:your-objectstorage.com"
+            "domain:your-objectstorage.com",
+            "domain:groq.com"
         ]
     },
     {
@@ -91,6 +92,7 @@
         "outboundTag": "direct"
     }
 ]
+
 
 
 
