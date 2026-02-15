@@ -83,7 +83,8 @@
             "auth.robertsspaceindustries.com",
             "domain:chloeting.com",
             "domain:your-objectstorage.com",
-            "domain:groq.com"
+            "domain:groq.com",
+            "regolith.rocks"
         ]
     },
     {
@@ -92,6 +93,7 @@
         "outboundTag": "direct"
     }
 ]
+
 
 
 
