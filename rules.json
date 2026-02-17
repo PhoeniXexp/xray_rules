@@ -84,7 +84,8 @@
             "domain:chloeting.com",
             "domain:your-objectstorage.com",
             "domain:groq.com",
-            "regolith.rocks"
+            "regolith.rocks",
+            "domain:epicgames.com"
         ]
     },
     {
@@ -93,6 +94,7 @@
         "outboundTag": "direct"
     }
 ]
+
 
 
 
