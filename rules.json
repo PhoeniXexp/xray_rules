@@ -85,7 +85,8 @@
             "domain:your-objectstorage.com",
             "domain:groq.com",
             "regolith.rocks",
-            "domain:epicgames.com"
+            "domain:epicgames.com",
+            "domain:gl-inet.com"
         ]
     },
     {
@@ -94,6 +95,7 @@
         "outboundTag": "direct"
     }
 ]
+
 
 
 
