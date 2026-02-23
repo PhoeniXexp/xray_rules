@@ -1,13 +1,6 @@
 [
     {
         "type": "field",
-        "inboundTag": [
-            "dns-in"
-        ],
-        "outboundTag": "dns-out"
-    },
-    {
-        "type": "field",
         "outboundTag": "proxy",
         "ip": [
             "1.0.0.1",
@@ -96,6 +89,7 @@
         "outboundTag": "direct"
     }
 ]
+
 
 
 
