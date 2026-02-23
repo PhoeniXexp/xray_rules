@@ -86,7 +86,8 @@
             "domain:groq.com",
             "regolith.rocks",
             "domain:epicgames.com",
-            "domain:gl-inet.com"
+            "domain:gl-inet.com",
+            "v2raya.org"
         ]
     },
     {
@@ -95,6 +96,7 @@
         "outboundTag": "direct"
     }
 ]
+
 
 
 
