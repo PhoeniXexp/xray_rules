@@ -72,6 +72,13 @@
     },
     {
         "type": "field",
+        "outboundTag": "proxy",
+        "domain": [
+            "geoip-telegram"
+        ]
+    },
+    {
+        "type": "field",
         "outboundTag": "direct",
         "domain": [
             "geosite:category-ru"
