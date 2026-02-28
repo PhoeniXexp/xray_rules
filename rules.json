@@ -42,18 +42,14 @@
         "outboundTag": "proxy",
         "domain": [
             "domain:noctuasky.com",
-            "robertsspaceindustries.com",
-            "cloudimperiumgames.com",
-            "domain:turbulent.ca",
-            "pbi.oraclecloud.com",
-            "auth.robertsspaceindustries.com",
+            "robertsspaceindustries.com","cloudimperiumgames.com","domain:turbulent.ca","pbi.oraclecloud.com","auth.robertsspaceindustries.com",
             "domain:chloeting.com",
             "domain:your-objectstorage.com",
             "domain:groq.com",
             "regolith.rocks",
             "domain:epicgames.com",
-            "domain:gl-inet.com",
-            "v2raya.org"
+            "domain:gl-inet.com","v2raya.org",
+            "domain:minion.gg","domain:mmoui.com"
         ]
     },
     {
