@@ -71,8 +71,8 @@
     {
         "type": "field",
         "outboundTag": "proxy",
-        "domain": [
-            "geoip-telegram"
+        "ip": [
+            "geoip:telegram"
         ]
     },
     {
