@@ -42,7 +42,7 @@
         "outboundTag": "proxy",
         "domain": [
             "domain:noctuasky.com",
-            "robertsspaceindustries.com","cloudimperiumgames.com","domain:turbulent.ca","pbi.oraclecloud.com","auth.robertsspaceindustries.com",
+            "robertsspaceindustries.com","cloudimperiumgames.com","domain:turbulent.ca","pbi.oraclecloud.com",
             "domain:chloeting.com",
             "domain:your-objectstorage.com",
             "domain:groq.com", "domain:roboflow.com",
@@ -89,12 +89,6 @@
         "domain": [
             "geosite:category-ru"
         ]
-    },
-    {
-        "type": "field",
-        "outboundTag": "proxy",
-        "network": "udp",
-        "port": "50000-65535"
     },
     {
         "type": "field",
