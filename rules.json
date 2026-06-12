@@ -52,7 +52,8 @@
             "domain:minion.gg","domain:mmoui.com",
             "domain:erkul.games", "domain:spviewer.eu", "domain:starcitizen.tools", "domain:cstone.space",
             "domain:oracle.com",
-            "forums.elderscrollsonline.com"
+            "forums.elderscrollsonline.com",
+            "domain:nanocad.com"
         ]
     },
     {
@@ -78,16 +79,16 @@
     },
     {
         "type": "field",
-        "outboundTag": "proxy",
-        "ip": [
-            "geoip:cloudflare"
+        "outboundTag": "direct",
+        "domain": [
+            "geosite:category-ru"
         ]
     },
     {
         "type": "field",
-        "outboundTag": "direct",
-        "domain": [
-            "geosite:category-ru"
+        "outboundTag": "proxy",
+        "ip": [
+            "geoip:cloudflare"
         ]
     },
     {
