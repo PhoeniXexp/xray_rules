@@ -69,14 +69,6 @@
     },
     {
         "type": "field",
-        "source": [
-            "192.168.1.121/32"
-        ],
-        "port": "24100-24131,24300-24331,24500-24507",
-        "outboundTag": "proxy"
-    },
-    {
-        "type": "field",
         "outboundTag": "proxy",
         "ip": [
             "geoip:ru-blocked"
