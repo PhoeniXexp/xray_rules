@@ -39,6 +39,14 @@
     },
     {
         "type": "field",
+        "outboundTag": "direct",
+        "domain": [
+            "full:sc-prod-public-objects.mcdn.robertsspaceindustries.com",
+            "full:sc-prod-public-manifests.mcdn.robertsspaceindustries.com"
+        ]
+    },
+    {
+        "type": "field",
         "outboundTag": "proxy",
         "domain": [
             "domain:noctuasky.com",
